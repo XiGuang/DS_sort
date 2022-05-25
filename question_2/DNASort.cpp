@@ -57,7 +57,7 @@ int DNACmp(const char* DNA_1,const char* DNA_2, int DNA_len){
     int inverse_num_1(GetInverseNum(DNA_1, DNA_len)), inverse_num_2(GetInverseNum(DNA_2, DNA_len));
     if(inverse_num_1 < inverse_num_2) return -1;    // 若第一个DNA的逆序数小于第二个，返回值小于0
     else if(inverse_num_1 > inverse_num_2) return 1;    // 若第一个DNA的逆序数大于第二个，返回值大于0
-    return -strcmp(DNA_1,DNA_2);    // 逆序数相等时，返回负的字典比较结果（返回结果与函数定义的相反）
+    return -strcmp(DNA_1,DNA_2);    // 逆序数相等时，返回负的字典比较结果（因为strcmp返回结果与函数定义的相反）
 }
 
 int GetInverseNum(const char* DNA, int DNA_len){
