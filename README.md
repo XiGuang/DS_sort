@@ -1,5 +1,9 @@
 # DS_sort
 2021-2022春-数据结构（2）小组实验（四）
+
+## 请用CMakeList提供的两个对应的配置文件运行项目！！！
+（通过右上角进行选择）
+
 ## —、目的和要求
 
 1. 掌握各种排序算法思想和实现。
@@ -34,30 +38,19 @@
 【输入样例】
 
 6    10
-
 AACATTAAGG
-
 TTTTGGCCAA
-
 TTTGGCCAAA
-
 GATCAGATTT
-
 CCCGGGGGGA
-
 ATCGATGCAT
 
 【输出样例】
 
 CCCGGGGGGA
-
 GATCAGATTT
-
 AACATTAAGG
-
 ATCGATGCAT
-
 TTTTGGCCAA
-
 TTTGGCCAAA
 
