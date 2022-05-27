@@ -33,8 +33,11 @@ int main(){
     }
 
     SortDNA(DNAs, DNA_len, DNA_num);
-    for(int i(0); i < DNA_num; ++i)
+    for(int i(0); i < DNA_num; ++i) {
         cout << DNAs[i] << endl;
+        delete DNAs[i]; // 顺便逐个删除
+    }
+    delete[] DNAs;
     return 0;
 }
 
